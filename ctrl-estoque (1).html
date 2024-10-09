@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Controle de Estoque</title>
+    <link rel="stylesheet" href="stylecntroles.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Mundo Colorado</h1>
+    </header>
+    
+    <div id="parte2">
+        <a href="index.html">Página Inicial</a>
+        <a href="ctrl-estoque.html">Controle de Estoque</a>
+        <a href="add-produto.html">Adicionar Produto</a>
+        <a href="funcionarios.html">Funcionários</a>
+    </div>
+
+    <div id="cntrl">
+    </div><h2 >Controle de Estoque</h2>
+    </div>
+
+    <table id="tabela">
+        <tr>
+            <th>Foto</th>
+            <th>Descrição</th>
+            <th>Preço (R$)</th>
+            <th>Quantidade disponível</th>
+        </tr>
+
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE77kbVrIwOxk0C2Wl-3zBrG4DrpSgGHORZg&s" alt="image"/></td>
+            <td> Uma bela caneca do nosso colorado </td>
+            <td>R$: 40,00 </td>
+            <td> 6 </td>
+        </tr>
+
+        <tr>
+            <td><img src="https://http2.mlstatic.com/D_NQ_NP_799253-MLB77544644247_072024-O.webp" alt="image"/></td>
+            <td> para se aquecer nesse frio! </td>
+            <td> R$:30,00 </td>
+            <td> 20</td>
+        </tr>
+
+        <tr>
+            <td><img src="data:image/jpeg;base64,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" alt="image"/></td>
+            <td> Uma camisa original do mundial </td>
+            <td> R$:350,00 </td>
+            <td> 2 </td>
+        </tr>
+
+        <tr>
+            <td><img src="https://acdn.mitiendanube.com/stores/001/055/309/products/camisa-do-internacional-adidas-2024-2025-home-1-casa-titular-i-jogo-vermelha-branca-com-patrocinios-torcedor-masculina-uniforme-original-oficial-qualidade-confiavel-homem-lancamento-2-4ae003ca81a8804c5317119834610316-1024-1024.jpg" alt="image"/></td>
+            <td> Um conjunto atualizado! </td>
+            <td> R$:350,00 </td>
+            <td> 15 </td>
+        </tr>
+
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLF3YqaMkkqMG3x1oN4_elCCJ_WSGqoaXzOg&s" alt="image"/></td>
+            <td> segunda parte do conjunto atualizado! </td>
+            <td> R$:100,00 </td>
+            <td> 18 </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

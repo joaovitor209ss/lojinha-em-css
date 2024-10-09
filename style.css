@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://portaldocolorado.com.br/wp-content/uploads/2022/11/internacional-1.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1300px;
+}
+
+#cabeca{
+    width: 800px;
+    background-color: rgb(234, 12, 12);
+    border: solid black;
+    border-width: 2px;
+    margin-left: 150px;
+
+}
+#nav{
+    background-color: rgb(234, 12, 12);
+    width: 800px;
+    border: solid black;
+    margin-left: 150px;
+    border-width: 2px;
+}
+#main{
+    border-width: 14px;
+    border: solid black;
+    background-color: white;
+    width: 600px;
+    
+}
+#article{
+    background-color: white;
+    width: 600px;
+    border-width: 14px;
+    border: solid black;
+    
+}
+#siga{
+    background-color: white;
+    border-width: 14px;
+    border: solid black;
+    width: 600px;
+
+}
+#imag1{
+width: 100px;
+height: 100px;
+
+}
+
+#imag2{
+    width: 90px;
+    height: 90px;
+}
+
+#imag3{
+    width: 70px;
+    height: 70px;
+}
+#endereço{
+    background-color: white;
+    border-width: 14px;
+    border: solid black;
+    width: 600px;
+
+
+}

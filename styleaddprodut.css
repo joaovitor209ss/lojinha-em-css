@@ -1,0 +1,44 @@
+body{
+    background-color: gray;
+}
+#desc{
+    background-color: white;
+}
+
+   
+#preco{
+    background-color: white;
+}
+#qntd{
+    background-color: white;
+}
+#link{
+    background-color: white;
+}
+#imag1{
+    width: 100px;
+    height: 100px;
+    
+    }
+    
+#imag2{
+        width: 90px;
+        height: 90px;
+}
+#titulo{
+    background-color: rgb(251, 2, 2);
+    border: solid black;
+    border-width: 7px;
+
+}
+#add{
+    border: solid black;
+    border-width: 6px;
+    background-color: rgb(255, 0, 0);
+}
+
+#linkss{
+    border: solid black;
+    border-width: 5px;
+    background-color: rgb(254, 7, 7);
+}

@@ -1,0 +1,26 @@
+body{
+     
+    background-image: url(https://t4.ftcdn.net/jpg/03/03/40/19/360_F_303401956_ufTeSp9EX62zQnJnbed9Q0kEgqaKKL44.jpg);
+}
+
+#tabela{
+    border: solid black;
+    border-width: 7px;
+    background-color: white;
+}
+#header{
+    background-color: red;
+    border: solid black;
+    border-width: 7px;
+}
+#parte2{
+    border: solid black;
+    border-width: 4px;
+    background-color: red;
+}
+#cntrl{
+    border: solid black;
+    border-width: 4px;
+    background-color: red;
+}
+

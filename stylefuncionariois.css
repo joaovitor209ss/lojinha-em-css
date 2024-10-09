@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+}
+
+#parte2{
+    border-width: 6px;
+    border:solid black;
+    width: 600px;
+    background-color: red;
+
+}
+#header{
+ 
+    background-color: rgb(234, 12, 12);
+    border: solid black;
+    border-width: 2px;
+
+}
+#h2{
+    background-color: rgb(234, 12, 12);
+    border: solid black;
+    border-width: 2px;
+
+}
+#ul{
+    background-color: white;
+    border: solid black;
+    border-width: 2px;
+
+
+}
